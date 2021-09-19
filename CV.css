@@ -3,6 +3,7 @@ main{
     margin : auto;
     font-family: 'Arial';
     text-align: justify;
+    float : center;
 
 }
 
@@ -27,11 +28,53 @@ aside{
 
 
 .corp{
-    width: 570px;
+    width: 550px;
     float :right;
+    display:flex;
     text-align: justify;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    
+    text-align: justify;
+  
 }
+
+#Expérience h3{
+    color: cadetblue;
+}
+#Expérience .Élément{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+#Formation h3{
+    color: tomato;
+}
+
+#Formation .Élément{
+    color: tomato;
+    text-decoration: underline;
+}
+
+#Compétences .Élément{
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+#Compétences h3{
+    color: rebeccapurple;
+
+}
+
+#Centresintérêt h3{
+    color:cornflowerblue;
+    text-align: center;
+}
+
+
 
 h3{
     text-align: center;
 }
+

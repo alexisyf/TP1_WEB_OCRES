@@ -12,6 +12,10 @@
     </head>
 
 <body>
+    <audio controls preload="auto" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+   
     <main>
 
 
@@ -19,26 +23,17 @@
         <h4>Menu de navigation</h4>
         <ul>
             <li><a href="#Contact">Contact</a></li>
-            <li><a href="#">Expérience professionnel</a></li>
-            <li><a href="#">Formation</a></li>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#">Centres d'intérêt</a></li>
-            
+            <li><a href="#Expérience">Expérience professionnel</a></li>
+            <li><a href="#Formation">Formation</a></li>
+            <li><a href="#Compétences">Compétences</a></li>
+            <li><a href="#Centresintérêt">Centres d'intérêt</a></li>  
+            <li><a href="formulaire.html">Me contacter</a></li>  
         </ul>
     </nav>
 
-    
-
-    
-  
     <aside>
-   
-  
             <img src = "Photo1.jpg" alt = "Photo de profil" />
-
-
-        <h3>Contact</h3>
-        
+        <h3>Contact</h3> 
           <p>
             Prénom : Alexis</br></br>
             Nom : Youf</br></br>
@@ -48,56 +43,59 @@
             tel : 06 15 59 57 61 </br></br>
           </p>
                 
-        </aside>
+    </aside>
 
     
 <div class = "corp">
 
-    <div class="Expérience">
+    <div id="Expérience">
         <h3>Expérience professionnel</h3>
-
-       
             <p>
-                <li><span class = "colorB2">B&S Robsim</span></li>
-            
+                <li><span class = "Élément">B&S Robsim</span></li>
                 <l>Stage en robotique, programmation d'un bras robot, du 25/05/2021 au 31/06/2021.</l>
             </br></br>
-
-                <li>BDE ESEO Vélizy</li>
+               <li><span class = "Élément">BDE ESEO Vélizy</span></li>
                 <l>Responsable évènemenciel de 2019 à 2020</l>
             </br></br>
-
-                <li>Neopost FRANCE</li>
+                <li><span class = "Élément">Neopost FRANCE</span></li>
                 <l>Archivage de contrats et mises à jour de fichiers clients, été 2018 et 2019</l>.
 
             </p>
-
     </div>
   
     
-
-
-
-
-    <div class = "Formation">
-        <h3>Compétences</h3>
+    <div id = "Formation">
+        <h3>Formation</h3>
         <p>
-            <li>Anglais : niveau conversationnel </li>
+            <li><span class = "Élément">2020-2022 :</span> 1ère et 2ème années du cycle ingénieur - <span class = "lieux">ECE Paris (75).</span> </li>
         </br> 
-            <l><li>Allemand : B2 </li>
+        <li><span class = "Élément">2021 :</span> Semestre international - <span class = "lieux">DCU Dublin.</span> </li>
             </br> 
-            <li>Informatique : PC, Mac, pack office, hardwares et software </li>
+            <li><span class = "Élément">2019-2020 :</span> 1ère et 2ème années de classe PREPA cycle ingénieur - <span class = "lieux">ESEO Vélizy (78).</span> </li>
         </br> 
-            <li>Ingénieurie : LTSpice, Pyhton, Arduino, EAGLE PCB, Proteus, SQL, Java, C, C++, assembly language.</li>
+            <li><span class = "Élément">2018 :</span> BAC S mention assez bien - <span class = "lieux">Lycée Paul-Langevin de Surenses (92).</span> </li>
         </br> 
 
         </p>
-        
+    </div>
 
+    <div id = "Compétences">
+        <h3>Compétences</h3>
+        <p>
+            <li><span class = "Élément">Anglais :</span> niveau conversationnel </li>
+        </br> 
+            <l><li><span class = "Élément"> Allemand </span>: B2 </li>
+            </br> 
+            <li><span class = "Élément">Informatique :</span> PC, Mac, pack office, hardwares et software </li>
+        </br> 
+            <li><span class = "Élément">Ingénieurie :</span> LTSpice, Pyhton, Arduino, EAGLE PCB, Proteus, SQL, Java, C, C++, assembly language.</li>
+        </br> 
+
+        </p>
     </div>
 
 
-    <div class = "Centresintérêt">
+    <div id = "Centresintérêt">
         <h3>Centres d'intérêt</h3>
         <p>
             <li>Informatique électronique </li>
@@ -109,10 +107,10 @@
             <li>Voile</li>
 
         </p>
-        
-
     </div>
+        
 </div>
+
 
 </main>
 </body>

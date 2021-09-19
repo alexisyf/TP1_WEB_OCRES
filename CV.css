@@ -11,24 +11,36 @@ main{
     float :left;
 }
 
-
-
-
 aside{
     float :left;
     border: 2px solid red;
   box-shadow: 5px 5px 5px black;
   border-radius: 10px 5px 10px 5px;
   padding : 20px;
+  
 }
 
 .Titre{
     text-align: center;
+  color: red;
+  animation-name: titreanim;
+  animation-duration: 10s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
 }
 
+@keyframes titreanim {
+    0% {color: red;}
+    45% {color: yellow;}
+    90%{color:blue}
+    100%{color: red;}
+
+    
+  }
 
 .corp{
     width: 550px;
+    height: 600px;
     float :right;
     display:flex;
     text-align: justify;
@@ -40,6 +52,7 @@ aside{
     text-align: justify;
   
 }
+
 
 #Expérience h3{
     color: cadetblue;

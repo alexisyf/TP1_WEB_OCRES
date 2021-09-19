@@ -1,0 +1,37 @@
+main{
+    width : 841px;
+    margin : auto;
+    font-family: 'Arial';
+    text-align: justify;
+
+}
+
+.Photo{
+    float :left;
+}
+
+
+
+
+aside{
+    float :left;
+    border: 2px solid red;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px 5px 10px 5px;
+  padding : 20px;
+}
+
+.Titre{
+    text-align: center;
+}
+
+
+.corp{
+    width: 570px;
+    float :right;
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+}
